@@ -1,0 +1,205 @@
+#root{
+  height: 100vh;
+  background-image: url('../src/WeatherComponents/images/weather-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: hidden;
+}
+
+/* App css */
+.main{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  display: block;
+  height: 3.8rem;
+  margin-left: 2rem;
+  padding: 1.2rem 0;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #ffffff;
+}
+/* SearchCity Css */
+
+.searchBar{
+  top: 30%;
+  position: relative;
+  margin: 0 auto;
+  max-width:40rem;
+}
+
+
+.searchIcon{
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 1.3rem;
+  transform: translate(-50%, -60%);
+  height: 1rem;
+  width: 1rem;
+  font-size: 1rem;
+  color: #c5c5c5;
+}
+
+.searchInput{
+  width: 100%;
+  border: none;
+  background-color: #ffffff;
+  font-size: 1rem;
+  padding: 0.6rem 1rem 0.6rem 2.8rem;
+  color: #c5c5c5;
+  border-radius: 1.8rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+.searchInput:focus{
+  color: #191919;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  outline: none;
+}
+
+/* Weather card- heading */
+.mainWeatherHeading{
+position: relative;
+margin-left: 2rem;
+}
+.weatherHeading{
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 2.6rem;
+}
+.date{
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-top: -2rem;
+}
+.weatherConditions{
+  position: absolute;
+  margin-left: 10rem;
+}
+.weatherIcon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4.8rem;
+  color: #ffffff;
+  margin-left: -8rem;
+}
+
+.temp{
+  display: block;
+  font-size: 3rem;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: -5rem;
+  margin-left: 7rem;
+  
+}
+.condition{
+  font-weight: 400;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-top: -2.8rem;
+  margin-left: 7rem;
+
+}
+
+.mainContainer{
+  position: relative;
+}
+.rightContainer{
+margin-left: 36.8rem;
+margin-top: -5rem;
+
+}
+.tempCard{
+  outline: none;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  width: 45rem;
+  height:11rem;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.2);
+  opacity: 0.8;
+  border-radius: 0.5rem;
+}
+.tempUpFont{
+  font-weight: 400;
+  font-size: 1.8rem;
+  color:#ffffff;
+}
+.tempDownFont{
+  font-weight: 400;
+  font-size: 0.8rem;
+  color:#ffffff;
+}
+.container1{
+position: absolute;
+margin-top:0.8rem;
+margin-left: 5rem;
+
+}
+.container2{
+  position: absolute; 
+  margin-top:6.8rem;
+  margin-left: 5rem;
+}
+.container3{
+  position: absolute;
+  margin-top:0.8rem;
+  margin-left: 20rem;
+}
+.container4{
+  position: absolute;
+  margin-top:6.8rem;
+  margin-left: 20rem;
+}
+.container5{
+  position: absolute;
+  margin-top:0.8rem;
+  margin-left: 35rem;
+}
+.container6{
+  position: absolute;
+  margin-top:6.8rem;
+  margin-left: 35rem;
+}
+.block{
+  display: block;
+}
+
+
+/* Forecast */
+
+.forecast{
+margin-left: 2rem;
+margin-top: -1rem;
+flex-basis: 100%;
+}
+.forehead{
+
+}
+.forecastCard{
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+ box-sizing: border-box;
+ justify-content: center;
+ padding: 1.8rem;
+ box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); 
+ margin-right: 0.3rem;
+ margin-bottom: 0.5rem;
+ height: 7.2rem;
+ width: 6.5rem;
+ color: #ffffff;
+ background-color: rgba(255, 255, 255, 0.2);
+  opacity: 0.8;
+  border-radius: 0.5rem;
+  outline: none;
+}
+.forecastICard{
+  display: flex;
+  overflow: auto;
+  white-space: nowrap;
+}
